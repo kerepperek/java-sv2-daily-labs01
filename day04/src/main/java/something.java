@@ -1,3 +1,4 @@
+import java.math.BigInteger;
 import java.util.Scanner;
 public class something {
 
@@ -6,6 +7,6 @@ public class something {
         System.out.println("Írjál be egy egész számot. Megmondom, hogy páros-e.");
         System.out.print("A szám: ");
         int number = scanner.nextInt();
-        System.out.println((number%2==1)?"Páratlan":"Páros");
+        System.out.println(number==0?"Nulla":number%2==0?"Páratlan":"Páros");
     }
 }
