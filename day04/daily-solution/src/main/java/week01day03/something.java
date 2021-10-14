@@ -1,3 +1,5 @@
+package week01day03;
+
 import java.math.BigInteger;
 import java.util.Scanner;
 public class something {
